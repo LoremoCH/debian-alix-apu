@@ -14,7 +14,7 @@
 1. Boot the Apu board and press F10 to Enter die Boot Menu.
 1. Choose your Installer stick, in my case is  was number 2.
   ![Apu2 Boot Menu](img/apu2_boot_menu.png)
-1. Choose install and press TAB to change the boot parameter. Remove the `--- quiet` and add  `console=ttyS0,115200 video=off ---`
+1. If you are installing Debain 12 just press TAB, Choose install and press TAB to change the boot parameter. Remove the `--- quiet` and add  `console=ttyS0,115200 video=off ---`
   ![Apu2 Debian Installer Boot Params](img/apu2_boot_params.png)
 1. When you get the undefined video mode number message, just wait 1 to 2 minutes.
   ![Apu2 Debian Installer Wait](img/apu2_boot_wait.png)
